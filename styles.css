@@ -9,6 +9,7 @@ body {
     text-align: center;
     color: grey;
     padding: 8px;
+    font-family: 'Courier New', monospace;
 }
 
 .recipe-container{
@@ -29,7 +30,7 @@ body {
     display: block;
     cursor: pointer;
     transition: background 0.3s ease;
-    text-decoration: none;
+    font-family: 'Courier New', monospace;
 }
 
 .button:hover {
