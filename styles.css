@@ -1,0 +1,37 @@
+body {   
+    background-color: rgba(0, 0, 0, 0.66);
+}
+
+.header {
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    background: rgb(24, 24, 24);
+    text-align: center;
+    color: grey;
+    padding: 8px;
+}
+
+.recipe-container{
+    border-style: solid;
+    border-color: black;
+    background: rgb(24, 24, 24);
+    text-align: center;
+    color: grey;
+}
+
+.button{
+    background: grey;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    padding: 16px;
+    font-size: large;
+    display: block;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: #f0f0f0;
+}
